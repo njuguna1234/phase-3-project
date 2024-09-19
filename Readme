@@ -1,0 +1,68 @@
+# (School Management system )
+
+#### Date, 2024/09/19
+
+#### By *Roy wahome*
+
+
+
+## Installation
+You use git clone to be able to download the documents in the GitHub
+
+## Installation Requirements
+Git
+
+### Installation instruction
+```
+Git clone https://github.com/njuguna1234/phase-3-project
+```
+# Student, Mentor, and Course Management System
+
+## Overview
+
+This is a simple command-line interface (CLI) application to manage students, mentors, and courses in an educational institution. The system allows administrators to add, update, delete, and view records for students, mentors, and courses. Additionally, it allows enrolling students in courses and associating mentors with students.
+
+## Features
+
+- **Add, Update, Delete Students**: Users can manage student records.
+- **Add, Update, Delete Mentors**: Users can manage mentor records.
+- **View Courses**: Users can view all available courses.
+- **Enroll Students in Courses**: Users can enroll students in courses.
+- **Associate Mentors with Students**: Users can assign mentors to students.
+- **Modular Design**: Each feature is encapsulated in separate functions, making the system easy to maintain.
+
+## System Components
+
+1. **Database**: PostgreSQL is used as the database system to store and manage the data for students, mentors, and courses.
+2. **Python Backend**: The system is implemented in Python using the `psycopg2` library to connect to the PostgreSQL database.
+
+## Project Structure
+
+```bash
+phase-3-project/
+│
+├── cli.py                 # Main CLI application for user interaction
+├── services.py            # Contains service functions for managing students, mentors, and courses
+├── database/
+│   ├── db_connection.py   # Handles database connection
+│   ├── create_tables.py   # Script to create the required database tables
+│   └── add_data.py        # Optional script to add sample data
+├── README.md              # Project documentation
+└── requirements.txt       # Project dependencies
+
+
+
+
+## Technologies used
+HTML
+CSS
+Github
+Javascript
+
+## Support and contact details
+github.com/hamida-mstafa
+
+### License
+The content of this site is licensed under the MIT license
+Copyright (c) 2018.
+
